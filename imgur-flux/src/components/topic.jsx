@@ -22,7 +22,7 @@ module.exports = React.createClass({
 	// Since component is the same, the DOM doesn't get replaced
 	// Thus, componentWillMount wont be executed
 	render: function() {
-		return <div>
+		return <div className="topic">
 			{this.renderImages()}
 		</div>
 	},
