@@ -16,7 +16,7 @@ module.exports = React.createClass({
 	componentWillMount: function() {
 		Actions.getImages(this.props.params.id);
 	},
-	componenetWillReceiveProps: function(nextProps) {
+	componentWillReceiveProps: function(nextProps) {
 		Actions.getImages(nextProps.params.id);
 	}, // Invokes when clicking link
 	// Since component is the same, the DOM doesn't get replaced
